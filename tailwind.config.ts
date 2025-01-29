@@ -7,10 +7,25 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      white: "var(--white)",
+      black: "var(--black)",
+    },
+
+    fontFamily: {
+      DmSans: ["var--font-dm-sans)"],
+    },
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      screens: {
+        xs: "350px",
+        sm: "575px",
+        md: "768px",
+        lg: "992px",
+        xl: "1200px",
+        "2xl": "1600px",
+      },
+      container: {
+        center: true,
       },
     },
   },
