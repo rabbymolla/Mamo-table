@@ -80,11 +80,11 @@ const tableData = [...data, totalRow];
 const DynamicTable = () => {
   return (
     <div>
-      <p className="font-DmSans font-bold text-xs md:text-sm text-black md:mb-3 text-center">
+      <p className="font-DmSans font-bold text-xs md:text-sm text-black mb-1 md:mb-3 text-center">
         subject Lorem ipsum dolor sit amet.
       </p>
       <Table columns={columns} data={tableData} />
-      <p className="font-DmSans font-bold text-xs md:text-sm text-black md:mt-3 text-right">
+      <p className="font-DmSans font-bold text-xs md:text-sm text-black mt-1 md:mt-3 text-right">
         subject Lorem ipsum dolor sit amet.
       </p>
     </div>

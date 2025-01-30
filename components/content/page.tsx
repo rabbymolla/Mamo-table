@@ -2,7 +2,7 @@ import React from "react";
 
 const ContentPart = () => {
   return (
-    <div className="mt-1 md:mt-5">
+    <div className="mt-1 md:mt-5 hidden sm:block">
       <h1 className="font-DmSans font-bold text-xs md:text-base uppercase text-black">
         Temes $ condition
       </h1>
