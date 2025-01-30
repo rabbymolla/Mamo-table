@@ -23,7 +23,7 @@ export default function Home() {
             <DynamicTable />
             <ContentPart />
 
-            <div className="sm:mt-5 hidden sm:block">
+            <div className="sm:mt-5 hidden xs:block">
               <p className="xs:mb-10">signetur</p>
               <span>your Name</span>
             </div>
