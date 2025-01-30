@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex justify-center">
-      <div className="relative border w-[1123px] max-w-[90%] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1123px]">
+      <div className="relative border">
         <Image
           src={imgUrl}
           alt="A4 Image"
