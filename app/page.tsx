@@ -16,8 +16,8 @@ export default function Home() {
           className="w-full h-auto"
         />
         {/* Absolute positioned content with dynamic width */}
-        <div className="absolute top-1/2 left-0 w-full h-full">
-          <div className="absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 w-full max-w-[90%] sm:max-w-[550px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1000px] px-6 sm:px-10 md:px-12 flex flex-wrap items-center h-[85%]">
+        <div className="absolute top-0 left-0 w-full h-full">
+          <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-full max-w-[90%] sm:max-w-[550px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1000px] px-6 sm:px-10 md:px-12 flex flex-wrap items-center h-[85%]">
             {/* Components */}
             <Details />
             <DynamicTable />
