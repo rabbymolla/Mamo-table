@@ -24,8 +24,12 @@ export default function Home() {
             <ContentPart />
 
             <div className="sm:mt-5 hidden xs:block">
-              <p className="xs:mb-10">signetur</p>
-              <span>your Name</span>
+              <p className="xs:mb-10 text-xs md:text-sm text-black font-DmSans font-bold">
+                Signetur
+              </p>
+              <span className="text-xs md:text-sm text-black font-DmSans font-normal">
+                your Name
+              </span>
             </div>
           </div>
         </div>
