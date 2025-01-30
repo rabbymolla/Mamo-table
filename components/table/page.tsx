@@ -8,35 +8,40 @@ const columns = [
     dataIndex: "sl",
     key: "sl",
     width: 50,
-    className: "border text-left font-DmSans text-sm text-bold py-2 px-1",
+    className:
+      "border text-left font-DmSans text-xs md:text-sm text-bold md:py-2 px-1",
   },
   {
     title: "Product Description",
     dataIndex: "descroption",
     key: "descroption",
     width: 500,
-    className: "border w-1/2 text-left font-DmSans text-sm text-bold py-2 px-1",
+    className:
+      "border w-1/2 text-left font-DmSans text-xs md:text-sm text-bold md:py-2 px-1",
   },
   {
     title: "Pieces",
     dataIndex: "pices",
     key: "pices",
     width: 50,
-    className: "border text-left font-DmSans text-sm text-bold py-2 px-1",
+    className:
+      "border text-left font-DmSans text-xs md:text-sm text-bold md:py-2 px-1",
   },
   {
     title: "Price",
     dataIndex: "price",
     key: "price",
     width: 200,
-    className: "border text-left font-DmSans text-sm text-bold py-2 px-1",
+    className:
+      "border text-left font-DmSans text-xs md:text-sm text-bold md:py-2 px-1 w-1/4",
   },
   {
     title: "Total Price",
     dataIndex: "totalprice",
     key: "totalprice",
     width: 200,
-    className: "border text-left font-DmSans text-sm text-bold py-2 px-1",
+    className:
+      "border text-left font-DmSans text-xs md:text-sm text-bold md:py-2 px-1 w-1/4",
   },
 ];
 
@@ -75,7 +80,13 @@ const tableData = [...data, totalRow];
 const DynamicTable = () => {
   return (
     <div>
+      <p className="font-DmSans font-bold text-xs md:text-sm text-black md:mb-3 text-center">
+        subject Lorem ipsum dolor sit amet.
+      </p>
       <Table columns={columns} data={tableData} />
+      <p className="font-DmSans font-bold text-xs md:text-sm text-black md:mt-3 text-right">
+        subject Lorem ipsum dolor sit amet.
+      </p>
     </div>
   );
 };
